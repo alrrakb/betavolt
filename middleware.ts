@@ -89,6 +89,10 @@ export async function middleware(request: NextRequest) {
     url.pathname = '/maintenance';
     return NextResponse.rewrite(url);
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
   /* ══ 1. Admin API routes — /api/admin/* ════════════════════
      These are completely separate from the page routes.
      Unauthenticated → 401 JSON.
